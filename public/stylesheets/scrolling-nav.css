@@ -1,0 +1,125 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+/*for infor look in bootstrap.min.css and .bg-primary    hidden-sm
+
+.navbar {
+    position: relative;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width
+    display: block;
+}
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.mobilebody{
+  padding-top: 200px;
+  padding-bottom: 0px;
+}
+/*main page hover*/
+.logoindex:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 3%;
+  bottom: 3%;
+  left: 3%;
+  right: 3%;
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.hovertext {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+/* Container holding the image and the text */
+.maintextcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* main image center text */
+.mainhovertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.linebar{
+  float: right;
+}
+a{ -webkit-transition: 0.3s; -moz-transition: 0.3s; transition: 0.3s;}
+a:hover{color:#ffffff;}
+a:focus, a:active{outline:none;}
+
+
+
+/*contact form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text]{
+    /*display:inline;*/
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 2px solid #4791cd; /*blue bo */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4791cd;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4791cd;
+}
+
+/*blue text */
+.maintext{
+  color: #4791cd;
+  font-style: arial;
+}
+
+/* RESPONSIVE TEXT SIZE SETTINGS*/
+h2{
+  font-size:3vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #4791cd;
+}
